@@ -1,0 +1,68 @@
+<?php
+
+/**
+ * @file
+ * Implementation de notre hook.
+ */
+
+use Drupal\Core\Access\AccessResult;
+
+
+/**
+ * Implements hook_theme().
+ */
+function demo_baggage_theme ($existing, $type, $theme, $path) {
+  return [
+    'recettes-liste' => [
+      'variables' => [
+        'items' => [],
+        'title' => '',
+      ]
+    ],
+    'salah' => [
+      'variables' => [
+        'items' => [],
+        'title' => '',
+        'nom' => '',
+      ]
+    ],
+    'bienvenue' => [
+      'variables' => [
+        'items' => [],
+        'title' => '',
+        'nom' => '',
+      ]
+    ]
+  ];
+}
+
+// hook qui reagit sur les éléments du formulaire.
+
+function demo_baggage_form_demo_baggage_salahformajax_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+    $form['objet'] = [
+      '#type' => 'radios',
+      '#title' => t('objet'),
+      '#default_value' => '1',
+      '#options' => [
+        '1' => t("demande d'information"),
+        '2' => t("reclamation"),
+      ],
+    ];
+
+    $form['#submit'][] = 'demo_baggage_form_submit';
+}
+
+// hook qui reagit sur la soumission du formulaire.
+
+function demo_baggage_form_submit(array &$form, \Drupal\Core\Form\FormStateInterface $form_state) {
+  $selectedValue = $form_state->getValue('example_select');
+  \Drupal::messenger()->addMessage(
+    t($form["example_select"]["#options"][$selectedValue].', votre formulaire a été bien envoyé'),
+    'status', TRUE
+    );
+}
+
+
+
+
