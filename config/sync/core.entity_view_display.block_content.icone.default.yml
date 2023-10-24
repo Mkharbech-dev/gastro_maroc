@@ -1,0 +1,30 @@
+uuid: 57fd41c1-0fd0-4540-9d47-f72fc37f5ac3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.icone
+    - field.field.block_content.icone.body
+    - field.field.block_content.icone.field_icone
+    - image.style.icone
+  module:
+    - media
+id: block_content.icone.default
+targetEntityType: block_content
+bundle: icone
+mode: default
+content:
+  field_icone:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: icone
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  langcode: true

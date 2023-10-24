@@ -1,0 +1,25 @@
+uuid: 0ed4018f-1932-4f8e-8544-165db2a06bde
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ceps
+_core:
+  default_config_hash: QnuU5TiVT4l1qWUnTC2W8sDZghvY0d_hh39u-lS_AKE
+id: ceps_branding
+theme: ceps
+region: site_branding
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

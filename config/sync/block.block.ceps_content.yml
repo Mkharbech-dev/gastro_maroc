@@ -1,0 +1,22 @@
+uuid: 5d839a06-2c1d-4885-97c9-172c48aefb42
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ceps
+_core:
+  default_config_hash: AytQmCU4DcuY4dA5YwWUfmeKSoDjS5D5UK7Rq-ctiRo
+id: ceps_content
+theme: ceps
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

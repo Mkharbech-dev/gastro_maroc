@@ -1,0 +1,22 @@
+uuid: 00974bac-131b-4b39-93a4-824c969a2456
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ceps
+_core:
+  default_config_hash: tPKhRxYkXG-V-w5p0slzQAfl2S6JCKZMGPjwGRzlnVI
+id: ceps_breadcrumbs
+theme: ceps
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: ca83ac42-1e63-4cff-9331-ec3fcdc8c198
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_adresse
+    - node.type.article
+  module:
+    - demo_baggage
+id: node.article.field_adresse
+field_name: field_adresse
+entity_type: node
+bundle: article
+label: adresse
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: adress_custom_field_type

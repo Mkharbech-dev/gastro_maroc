@@ -1,0 +1,22 @@
+uuid: a8f2b9a3-d7c6-4e33-9149-514a97a3f2c1
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - baggage
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: baggage_breadcrumbs
+theme: baggage
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 3feeeddd-bad7-4ea4-9863-bb22f8c99c2d
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - baggage
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: baggage_page_title
+theme: baggage
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

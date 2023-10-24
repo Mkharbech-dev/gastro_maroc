@@ -1,0 +1,22 @@
+uuid: 1ec32b08-0b59-4c1b-be40-c4ea7bc57443
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - podtalk
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: podtalk_breadcrumbs
+theme: podtalk
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  label_display: '0'
+  provider: system
+visibility: {  }

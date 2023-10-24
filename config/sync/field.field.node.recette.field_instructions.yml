@@ -1,0 +1,19 @@
+uuid: 5d8d1aca-55dd-4bf3-930d-32d94a7d7851
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instructions
+    - node.type.recette
+id: node.recette.field_instructions
+field_name: field_instructions
+entity_type: node
+bundle: recette
+label: Instructions
+description: 'Zone de texte qui comprend la liste des instructions dune recett'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

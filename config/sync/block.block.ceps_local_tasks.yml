@@ -1,0 +1,22 @@
+uuid: 572703ce-3fc6-4764-bb62-9fefa8010645
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ceps
+_core:
+  default_config_hash: LHCZkTuC2aDKv9lQuHVinMCgmAHJAdojsXK4u_ckogg
+id: ceps_local_tasks
+theme: ceps
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

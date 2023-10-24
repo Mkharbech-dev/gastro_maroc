@@ -1,0 +1,11 @@
+uuid: 60e2caa5-aeb6-4b8a-86a3-c82cfccb23b9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_recette
+id: taxonomy_term.type_recette
+target_entity_type_id: taxonomy_term
+target_bundle: type_recette
+default_langcode: site_default
+language_alterable: false

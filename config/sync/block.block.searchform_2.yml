@@ -1,0 +1,23 @@
+uuid: d932ca6b-fde1-4f7e-92e0-284abcabf5ab
+langcode: fr
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ceps
+_core:
+  default_config_hash: _tpsXIPvCAqeckWkmI1SYPDQ0mGGGjdIM_hdokS7znc
+id: searchform_2
+theme: ceps
+region: search_box
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulaire de recherche'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

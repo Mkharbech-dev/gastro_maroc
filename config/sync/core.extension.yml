@@ -6,6 +6,7 @@ module:
   automated_cron: 0
   big_pipe: 0
   block: 0
+  block_class: 0
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
@@ -19,6 +20,7 @@ module:
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   entity_reference_revisions: 0
   field: 0
   field_ui: 0
@@ -39,6 +41,7 @@ module:
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  migrate: 0
   module_filter: 0
   mysql: 0
   node: 0
@@ -46,22 +49,32 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  responsive_image: 0
   scheduler: 0
   search: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0
   upgrade_status: 0
   user: 0
   views_ui: 0
+  pathauto: 1
   views: 10
   paragraphs: 11
   standard: 1000
 theme:
   olivero: 0
   claro: 0
+  podtalk: 0
+  bootstrap: 0
+  baggage: 0
+  ceps: 0
+  stable: 0
+  classy: 0
+  panache: 0
 profile: standard

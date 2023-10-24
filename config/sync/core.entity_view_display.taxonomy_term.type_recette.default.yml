@@ -1,0 +1,29 @@
+uuid: 8ff1c753-4eb3-4ccc-aa8f-9c1cd3c1410b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.type_recette.field_icone
+    - image.style.icone
+    - taxonomy.vocabulary.type_recette
+  module:
+    - media
+id: taxonomy_term.type_recette.default
+targetEntityType: taxonomy_term
+bundle: type_recette
+mode: default
+content:
+  field_icone:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: icone
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  langcode: true

@@ -1,0 +1,30 @@
+uuid: 6c424d13-1a5d-4705-a557-d77dc22c3605
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:41a726c3-f55d-4c6b-8621-60e40b2c5be6'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: bienvenue
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:41a726c3-f55d-4c6b-8621-60e40b2c5be6'
+settings:
+  id: 'block_content:41a726c3-f55d-4c6b-8621-60e40b2c5be6'
+  label: 'Bienvenue !'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

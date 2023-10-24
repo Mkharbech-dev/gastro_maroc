@@ -1,0 +1,15 @@
+uuid: 0bdb32d6-0b96-4596-a88e-66ed7928f317
+langcode: fr
+status: true
+dependencies: {  }
+name: icone
+label: icône
+effects:
+  45467939-20fe-4502-a6af-2bd348e5bb49:
+    uuid: 45467939-20fe-4502-a6af-2bd348e5bb49
+    id: image_scale
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      upscale: false

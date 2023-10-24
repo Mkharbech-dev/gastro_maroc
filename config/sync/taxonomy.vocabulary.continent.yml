@@ -1,0 +1,8 @@
+uuid: e2359b96-a07e-4592-9a55-534c1825ea23
+langcode: fr
+status: true
+dependencies: {  }
+name: Continents
+vid: continent
+description: 'Ajoutez un continent'
+weight: 0

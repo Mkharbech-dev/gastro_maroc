@@ -1,0 +1,23 @@
+uuid: e0e31fd9-c068-4a68-a401-33e41499f236
+langcode: fr
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - baggage
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: baggage_syndicate
+theme: baggage
+region: navigation
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'Flux RSS'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 53ffe14d-953b-417d-90af-2fcdff446a4d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - baggage
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: baggage_site_branding
+theme: baggage
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

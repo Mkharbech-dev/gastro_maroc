@@ -1,0 +1,22 @@
+uuid: 2d9f42b0-0367-4f4e-a468-42a400b63340
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - baggage
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: baggage_content
+theme: baggage
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: ba788d8d-1a78-4687-9b2f-c396e6b3eff8
+langcode: fr
+status: true
+dependencies: {  }
+name: bandeau_sm
+label: 'bandeau sm (576x215)'
+effects:
+  a312a705-cd4e-4d58-a887-731746d50c4a:
+    uuid: a312a705-cd4e-4d58-a887-731746d50c4a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 576
+      height: 215
+      anchor: center-center

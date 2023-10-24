@@ -1,0 +1,22 @@
+uuid: 838d22fa-2806-4801-96f3-0d20e87b4482
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - panache
+_core:
+  default_config_hash: MpbbDu4ozBHejSG82MXhovqyGHLVNMgPPuT_E_Ffdsk
+id: tabs_2
+theme: panache
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

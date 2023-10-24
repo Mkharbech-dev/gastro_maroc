@@ -1,0 +1,22 @@
+uuid: cd150146-885c-4064-a3ad-003be3bf1bd4
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ceps
+_core:
+  default_config_hash: 8_m8c4J5vtwBHn75CvU6GZzH0SbCdtfACKegP1jY9Zk
+id: ceps_powered
+theme: ceps
+region: footer_bottom
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

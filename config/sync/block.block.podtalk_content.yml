@@ -1,0 +1,22 @@
+uuid: 99ca3851-1da4-4a77-9fed-efab95e131d3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - podtalk
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: podtalk_content
+theme: podtalk
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

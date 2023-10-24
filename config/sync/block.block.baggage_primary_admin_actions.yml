@@ -1,0 +1,20 @@
+uuid: a60bb25c-c7ff-4b15-9559-4e073e002d87
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - baggage
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: baggage_primary_admin_actions
+theme: baggage
+region: navigation
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  label_display: '0'
+  provider: core
+visibility: {  }

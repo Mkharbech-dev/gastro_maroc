@@ -1,0 +1,20 @@
+uuid: bf049889-7090-484a-8174-43dfb04e87e2
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ceps
+_core:
+  default_config_hash: Iz-CMP7IdY-kDd_JrbOF0PvS8XKM4hnvPV8WEqI6hPs
+id: ceps_page_title
+theme: ceps
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 4cf5855c-82d6-49b6-96de-b468500e56ad
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - panache
+_core:
+  default_config_hash: tHIJa_CAnsFRcBVVyzkpPJZhPE56aoZWtw_9Gbqp3ZE
+id: mainnavigation
+theme: panache
+region: header_navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

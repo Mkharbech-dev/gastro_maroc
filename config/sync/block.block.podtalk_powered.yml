@@ -1,0 +1,22 @@
+uuid: 915a8300-cb93-4c7c-a6a2-d1b27a4748a3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - podtalk
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: podtalk_powered
+theme: podtalk
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

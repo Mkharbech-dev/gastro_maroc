@@ -13,6 +13,8 @@ editor: ckeditor5
 settings:
   toolbar:
     items:
+      - undo
+      - redo
       - bold
       - italic
       - '|'
@@ -23,6 +25,8 @@ settings:
       - '|'
       - blockQuote
       - drupalInsertImage
+      - drupalMedia
+      - alignment
       - '|'
       - heading
       - code
@@ -54,8 +58,16 @@ settings:
     ckeditor5_list:
       reversed: false
       startIndex: true
+    ckeditor5_alignment:
+      enabled_alignments:
+        - left
+        - center
+        - right
+        - justify
     ckeditor5_imageResize:
       allow_resize: true
+    media_media:
+      allow_view_mode_override: false
 image_upload:
   status: true
   scheme: public

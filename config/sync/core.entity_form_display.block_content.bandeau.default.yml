@@ -1,0 +1,41 @@
+uuid: b5913d54-946f-4faf-b4a2-1c0d540c9fac
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bandeau
+    - field.field.block_content.bandeau.field_bandeau
+    - field.field.block_content.bandeau.layout_builder__layout
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.bandeau.default
+targetEntityType: block_content
+bundle: bandeau
+mode: default
+content:
+  field_bandeau:
+    type: image_image
+    weight: 26
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden:
+  layout_builder__layout: true

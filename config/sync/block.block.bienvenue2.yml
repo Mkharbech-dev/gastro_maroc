@@ -1,0 +1,34 @@
+uuid: 47d7a999-87df-4dd7-b0ab-010d6b5dbbfa
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:591f45a9-b294-4197-bd53-92a36c544ca6'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - panache
+third_party_settings:
+  block_class:
+    classes: panache-introduction
+id: bienvenue2
+theme: panache
+region: banner_slideshow
+weight: -3
+provider: null
+plugin: 'block_content:591f45a9-b294-4197-bd53-92a36c544ca6'
+settings:
+  id: 'block_content:591f45a9-b294-4197-bd53-92a36c544ca6'
+  label: 'Bienvenue 2'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

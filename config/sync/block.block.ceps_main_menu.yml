@@ -1,0 +1,27 @@
+uuid: 9d3e0aec-1d2d-47f1-8787-b0aa3fa780a8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ceps
+_core:
+  default_config_hash: iiU4PFkcJZSZh4JwupPXMH3L3jU47UBtuKyMp8Z-5cs
+id: ceps_main_menu
+theme: ceps
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

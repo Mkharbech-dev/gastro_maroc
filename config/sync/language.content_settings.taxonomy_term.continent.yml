@@ -1,0 +1,11 @@
+uuid: 536969b9-782e-4316-8e47-df22607c3e5f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.continent
+id: taxonomy_term.continent
+target_entity_type_id: taxonomy_term
+target_bundle: continent
+default_langcode: site_default
+language_alterable: false

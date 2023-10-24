@@ -1,0 +1,21 @@
+uuid: 60932dce-ddb5-4779-a70d-0dae6d1050b7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bandeau
+    - field.storage.block_content.layout_builder__layout
+  module:
+    - layout_builder
+id: block_content.bandeau.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: block_content
+bundle: bandeau
+label: Affichage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

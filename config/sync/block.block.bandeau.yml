@@ -1,0 +1,25 @@
+uuid: 76fe70ad-7ed9-4a94-99ad-f9e921d3024e
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:575e323b-ba9b-4640-b7be-a89db9ead71b'
+  module:
+    - block_content
+  theme:
+    - panache
+id: bandeau
+theme: panache
+region: banner_slideshow
+weight: -4
+provider: null
+plugin: 'block_content:575e323b-ba9b-4640-b7be-a89db9ead71b'
+settings:
+  id: 'block_content:575e323b-ba9b-4640-b7be-a89db9ead71b'
+  label: Bandeau
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

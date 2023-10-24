@@ -1,0 +1,15 @@
+uuid: 10c81179-1d6c-4f9d-b9aa-025a8054c5ea
+langcode: fr
+status: true
+dependencies: {  }
+name: bandeau_xxl
+label: 'bandeau xxl (2000x285)'
+effects:
+  05416d9b-e9d1-4141-bdba-72a64010faae:
+    uuid: 05416d9b-e9d1-4141-bdba-72a64010faae
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 285
+      anchor: center-center

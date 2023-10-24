@@ -1,0 +1,29 @@
+uuid: 72f407a9-d72f-45f2-8514-54ce7be8bea1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.icone
+    - field.storage.block_content.field_icone
+    - media.type.image
+id: block_content.icone.field_icone
+field_name: field_icone
+entity_type: block_content
+bundle: icone
+label: Icône
+description: 'image d''icône '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

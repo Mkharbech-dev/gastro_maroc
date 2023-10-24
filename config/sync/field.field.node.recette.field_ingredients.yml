@@ -1,0 +1,19 @@
+uuid: f228805e-34a5-4a71-9e75-98ab4e48a505
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredients
+    - node.type.recette
+id: node.recette.field_ingredients
+field_name: field_ingredients
+entity_type: node
+bundle: recette
+label: Ingrédients
+description: 'Ajouter un ou plusieurs ingrédients précédés de leur dosage'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

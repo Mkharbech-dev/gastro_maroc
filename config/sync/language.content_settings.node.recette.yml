@@ -1,0 +1,11 @@
+uuid: 0c93c734-be4d-4b81-97ae-429243725f0b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.recette
+id: node.recette
+target_entity_type_id: node
+target_bundle: recette
+default_langcode: site_default
+language_alterable: false

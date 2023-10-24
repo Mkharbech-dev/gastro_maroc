@@ -1,0 +1,20 @@
+uuid: 236d1dbb-2b70-4142-a4ac-8c8fd9614ae0
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ceps
+_core:
+  default_config_hash: 4hwQmC69gB0PPqVwQh_oabExvYzf0nmWgelcGe4rAcA
+id: ceps_local_actions
+theme: ceps
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: e232dfb2-8674-4456-b9ca-5b5a0fae9444
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - podtalk
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: podtalk_primary_admin_actions
+theme: podtalk
+region: navigation
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  label_display: '0'
+  provider: core
+visibility: {  }

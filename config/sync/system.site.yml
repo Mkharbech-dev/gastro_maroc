@@ -2,9 +2,9 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: fr
 uuid: f38eb006-9a30-45bc-9d52-a9187fae7044
-name: gastro-maroc
+name: Gastro-maroc
 mail: salah_ita@yahoo.fr
-slogan: ''
+slogan: 'Découvrez la gastronomie marocaine'
 page:
   403: ''
   404: ''

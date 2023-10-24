@@ -1,0 +1,23 @@
+uuid: 0648da17-954c-4b81-8b39-cdfe6e67c4bc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portions
+    - node.type.recette
+id: node.recette.field_portions
+field_name: field_portions
+entity_type: node
+bundle: recette
+label: Portions
+description: 'Nombre entier suivi du suffixe "personnes".'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: personnes
+field_type: integer

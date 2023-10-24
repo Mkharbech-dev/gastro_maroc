@@ -1,0 +1,8 @@
+uuid: 3f4b4e32-5aff-4129-b386-43ce35d05ac6
+langcode: fr
+status: true
+dependencies: {  }
+id: bandeau
+label: Bandeau
+revision: 0
+description: ''

@@ -1,0 +1,22 @@
+uuid: e4a408c4-e9b0-4576-8dd1-b0e5a22c01c9
+langcode: fr
+status: false
+dependencies:
+  theme:
+    - podtalk
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: podtalk_primary_local_tasks
+theme: podtalk
+region: navigation
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

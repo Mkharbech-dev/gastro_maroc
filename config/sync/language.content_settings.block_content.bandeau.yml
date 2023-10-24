@@ -1,0 +1,11 @@
+uuid: 66360b86-e3e0-409c-a28d-921ea3273089
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.bandeau
+id: block_content.bandeau
+target_entity_type_id: block_content
+target_bundle: bandeau
+default_langcode: site_default
+language_alterable: false
