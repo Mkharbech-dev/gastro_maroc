@@ -1,0 +1,29 @@
+uuid: 0f3a0ac2-b0be-4c83-9e0d-777b3e516239
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+  module:
+    - contact_block
+    - system
+  theme:
+    - panache
+id: contactblock
+theme: panache
+region: content
+weight: -2
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: Contact
+  label_display: visible
+  provider: contact_block
+  contact_form: feedback
+  form_display: default
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/24

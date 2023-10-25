@@ -9,7 +9,7 @@ _core:
 id: tabs_2
 theme: panache
 region: content
-weight: 0
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

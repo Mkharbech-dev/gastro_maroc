@@ -1,0 +1,25 @@
+uuid: 7a77faaf-755c-4508-8d0c-546a9db21c21
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:48a6e207-74d4-4928-afbd-99d2a46b88fe'
+  module:
+    - block_content
+  theme:
+    - panache
+id: copyright
+theme: panache
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:48a6e207-74d4-4928-afbd-99d2a46b88fe'
+settings:
+  id: 'block_content:48a6e207-74d4-4928-afbd-99d2a46b88fe'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
