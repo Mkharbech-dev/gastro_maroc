@@ -42,21 +42,21 @@
 #}
 <div id="page-wrapper">
   <header>
-    {% include '@panache/includes/header.html.twig' %}
+    {% include '@gastro/includes/header.html.twig' %}
 
     {% if page.header_navigation %}
-      {% include '@panache/includes/header-navigation.html.twig' %}
+      {% include '@gastro/includes/header-navigation.html.twig' %}
     {% endif %}
   </header>
-  <main class="container main-wrapper">
+  <main class="main-wrapper">
     {% if page.banner_slideshow %}
       {{ page.banner_slideshow }}
     {% endif %}
     {% if panache.display_sample_blocks %}
       {% if is_front %}
-        {% include '@panache/includes/banner-slideshow.html.twig' %}
-        {% include '@panache/includes/sample-introductory-block.html.twig' %}
-        {% include '@panache/includes/testimonials.html.twig' %}
+        {% include '@gastro/includes/banner-slideshow.html.twig' %}
+        {% include '@gastro/includes/sample-introductory-block.html.twig' %}
+        {% include '@gastro/includes/testimonials.html.twig' %}
       {% endif %}
     {% endif %}
     {% if page.page_title %}
@@ -105,14 +105,14 @@
   <footer>
     {% if page.footer %}
       <div class="panache-footer">
-        <div class="container">
+        <div class="">
           {{ page.footer }}
         </div>
       </div>
     {% endif %}
     {% if page.footer is empty %}
       <div class="panache-footer">
-        {% include '@panache/includes/footer.html.twig' %}
+        {% include '@gastro/includes/footer.html.twig' %}
       </div>
     {% endif %}
   </footer>
