@@ -1,4 +1,4 @@
-uuid: 347cb7d7-216c-4947-83b6-477cd6198c47
+uuid: 28600f36-2df3-4bbf-a2fc-3b440ec22d40
 langcode: fr
 status: true
 dependencies:
@@ -11,7 +11,7 @@ field_name: field_documents
 entity_type: node
 bundle: recette
 label: Documents
-description: 'Champs de type Média permettant d''inclure des documents PDF ou Word.'
+description: ''
 required: false
 translatable: false
 default_value: {  }
@@ -24,6 +24,6 @@ settings:
     sort:
       field: _none
       direction: ASC
-    auto_create: false
+    auto_create: true
     auto_create_bundle: ''
 field_type: entity_reference

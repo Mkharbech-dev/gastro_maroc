@@ -5,30 +5,23 @@ dependencies:
   config:
     - block_content.type.bandeau
     - field.field.block_content.bandeau.field_bandeau
-    - field.field.block_content.bandeau.layout_builder__layout
-    - responsive_image.styles.bandeau
   module:
-    - layout_builder
-    - layout_discovery
-    - responsive_image
-third_party_settings:
-  layout_builder:
-    enabled: false
-    allow_custom: false
+    - image
 id: block_content.bandeau.default
 targetEntityType: block_content
 bundle: bandeau
 mode: default
 content:
   field_bandeau:
-    type: responsive_image
+    type: image
     label: hidden
     settings:
-      responsive_image_style: bandeau
       image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
   langcode: true
-  layout_builder__layout: true

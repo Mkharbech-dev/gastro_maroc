@@ -1,4 +1,4 @@
-uuid: 72f407a9-d72f-45f2-8514-54ce7be8bea1
+uuid: fc70dcb2-d55e-4661-8bcc-d10030358758
 langcode: fr
 status: true
 dependencies:
@@ -10,8 +10,8 @@ id: block_content.icone.field_icone
 field_name: field_icone
 entity_type: block_content
 bundle: icone
-label: Icône
-description: 'image d''icône '
+label: icône
+description: 'image icône'
 required: false
 translatable: false
 default_value: {  }
@@ -24,6 +24,6 @@ settings:
     sort:
       field: _none
       direction: ASC
-    auto_create: false
+    auto_create: true
     auto_create_bundle: ''
 field_type: entity_reference

@@ -1,4 +1,4 @@
-uuid: 070b27e8-85c3-47ee-b2d4-065f25cbfcce
+uuid: e338a726-558d-42de-8aa4-524d9c3cd61a
 langcode: fr
 status: true
 dependencies:
@@ -12,13 +12,13 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: facile
+      value: Facile
       label: Facile
     -
-      value: intermediare
-      label: Intermediare
+      value: Moyen
+      label: Moyen
     -
-      value: difficile
+      value: Difficile
       label: Difficile
   allowed_values_function: ''
 module: options

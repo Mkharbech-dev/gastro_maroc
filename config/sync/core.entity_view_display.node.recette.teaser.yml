@@ -20,8 +20,82 @@ dependencies:
     - node.type.recette
   module:
     - image
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: 'section 1'
+          context_mapping: {  }
+          column_widths: 33-67
+        components:
+          0be1b990-b107-4140-ac7d-be0ec1d3fda4:
+            uuid: 0be1b990-b107-4140-ac7d-be0ec1d3fda4
+            region: first
+            configuration:
+              id: 'field_block:node:recette:field_image'
+              label: Image
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: content
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          3749d09f-1e65-424a-8159-4736e721b2b8:
+            uuid: 3749d09f-1e65-424a-8159-4736e721b2b8
+            region: first
+            configuration:
+              id: 'field_block:node:recette:field_continent'
+              label: Continents
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          7f10f1be-aa2c-4b40-98c1-26b1f90071bf:
+            uuid: 7f10f1be-aa2c-4b40-98c1-26b1f90071bf
+            region: second
+            configuration:
+              id: 'field_block:node:recette:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
 id: node.recette.teaser
 targetEntityType: node
 bundle: recette
@@ -54,6 +128,11 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
 hidden:
   field_difficulte: true
   field_documents: true
@@ -65,4 +144,3 @@ hidden:
   field_temps: true
   field_type_recette: true
   langcode: true
-  links: true

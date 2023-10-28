@@ -1,6 +1,6 @@
 uuid: 76fe70ad-7ed9-4a94-99ad-f9e921d3024e
 langcode: fr
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:575e323b-ba9b-4640-b7be-a89db9ead71b'
@@ -11,7 +11,7 @@ dependencies:
 id: bandeau
 theme: panache
 region: banner_slideshow
-weight: -4
+weight: -1
 provider: null
 plugin: 'block_content:575e323b-ba9b-4640-b7be-a89db9ead71b'
 settings:

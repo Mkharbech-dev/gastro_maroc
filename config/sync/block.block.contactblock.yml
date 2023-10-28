@@ -1,4 +1,4 @@
-uuid: 0f3a0ac2-b0be-4c83-9e0d-777b3e516239
+uuid: 7111822e-6ea9-4f3e-8236-1c0cb5d93189
 langcode: fr
 status: true
 dependencies:
@@ -8,9 +8,9 @@ dependencies:
     - contact_block
     - system
   theme:
-    - panache
+    - gastro
 id: contactblock
-theme: panache
+theme: gastro
 region: content
 weight: -2
 provider: null

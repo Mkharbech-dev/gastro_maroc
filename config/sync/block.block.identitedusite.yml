@@ -1,0 +1,23 @@
+uuid: 1054db99-fac9-4bf0-9e5e-6465c368636e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gastro
+id: identitedusite
+theme: gastro
+region: header_center
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 4eec8bf3-d0b5-4d50-a1a1-a63a6a9bb4f2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - gastro
+id: navigationprincipale
+theme: gastro
+region: header_navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

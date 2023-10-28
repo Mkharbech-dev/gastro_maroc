@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: yzS3wMdcSODN7ept_-nWCmR0MALN6VG4EKAC-UmozCU
+display_sample_blocks: true
+langcode: fr
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 0
+  path: 'public://logo-recettes-du-monde-v2_1.png'
+favicon:
+  use_default: 1

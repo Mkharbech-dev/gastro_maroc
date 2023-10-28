@@ -1,4 +1,4 @@
-uuid: 1b8b7204-ea26-48d9-95eb-a461f53c93b7
+uuid: fba3974d-8842-45dc-b12f-9354358cee1e
 langcode: fr
 status: true
 dependencies:
@@ -10,7 +10,7 @@ field_name: field_temps
 entity_type: node
 bundle: recette
 label: Temps
-description: 'Nombre entier suivi du suffixe "minutes"'
+description: ''
 required: false
 translatable: false
 default_value: {  }
@@ -19,5 +19,5 @@ settings:
   min: null
   max: null
   prefix: ''
-  suffix: minutes
+  suffix: ' minutes'
 field_type: integer

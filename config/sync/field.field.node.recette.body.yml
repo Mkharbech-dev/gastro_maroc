@@ -11,11 +11,15 @@ id: node.recette.body
 field_name: body
 entity_type: node
 bundle: recette
-label: Body
+label: Description
 description: ''
-required: false
+required: true
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: ''
+    summary: a
+    format: basic_html
 default_value_callback: ''
 settings:
   display_summary: true

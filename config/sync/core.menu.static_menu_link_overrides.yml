@@ -3,11 +3,11 @@ _core:
 langcode: fr
 definitions:
   contact__site_page:
-    weight: -50
+    enabled: false
     menu_name: footer
     parent: ''
-    enabled: false
     expanded: false
+    weight: 0
   standard__front_page:
     weight: -50
     menu_name: main
@@ -15,13 +15,13 @@ definitions:
     expanded: false
     enabled: true
   node__add_page:
-    weight: -75
+    weight: -74
     menu_name: admin
     parent: system.admin_content
     expanded: false
     enabled: true
   comment__admin:
-    weight: -73
+    weight: -72
     menu_name: admin
     parent: system.admin_content
     expanded: false

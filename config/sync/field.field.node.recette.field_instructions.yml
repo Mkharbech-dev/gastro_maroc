@@ -1,4 +1,4 @@
-uuid: 5d8d1aca-55dd-4bf3-930d-32d94a7d7851
+uuid: 480d90f3-7266-452f-9c26-31dd287501a8
 langcode: fr
 status: true
 dependencies:
@@ -10,10 +10,10 @@ field_name: field_instructions
 entity_type: node
 bundle: recette
 label: Instructions
-description: 'Zone de texte qui comprend la liste des instructions dune recett'
+description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: string_long

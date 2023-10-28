@@ -1,12 +1,12 @@
-uuid: 0bdb32d6-0b96-4596-a88e-66ed7928f317
+uuid: 61b1a786-959a-4668-b3d5-f1f5d099a3bf
 langcode: fr
 status: true
 dependencies: {  }
 name: icone
 label: icône
 effects:
-  45467939-20fe-4502-a6af-2bd348e5bb49:
-    uuid: 45467939-20fe-4502-a6af-2bd348e5bb49
+  76d94bad-ac57-4c08-b950-f6775c4700e9:
+    uuid: 76d94bad-ac57-4c08-b950-f6775c4700e9
     id: image_scale
     weight: 1
     data:

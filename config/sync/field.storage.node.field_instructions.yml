@@ -1,4 +1,4 @@
-uuid: 4a059741-8f87-4fa5-9d9f-e7ffaf593c25
+uuid: 34f29373-ec13-48b9-8bdf-dffb00c8c1fd
 langcode: fr
 status: true
 dependencies:
@@ -7,14 +7,12 @@ dependencies:
 id: node.field_instructions
 field_name: field_instructions
 entity_type: node
-type: string
+type: string_long
 settings:
-  max_length: 255
   case_sensitive: false
-  is_ascii: false
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

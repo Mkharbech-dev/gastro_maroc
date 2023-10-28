@@ -1,0 +1,18 @@
+uuid: f44745ac-e91c-43e7-a452-ab49ebf28b33
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - gastro
+id: titredepage
+theme: gastro
+region: banner_slideshow
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

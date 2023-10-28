@@ -7,7 +7,7 @@ global-styling:
       dist/vendors/css/slick-theme.css: {}
       dist/vendors/css/fontawesome.css: {}
       https://use.typekit.net/rsg4scl.css: { type: external }
-      dist/css/style_custom.css: {}
+      dist/css/style_gastro.css: {}
   js:
     dist/js/script.js: {}
     dist/vendors/js/slick.min.js: {}

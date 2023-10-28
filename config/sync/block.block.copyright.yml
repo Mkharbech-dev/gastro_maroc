@@ -1,21 +1,21 @@
-uuid: 7a77faaf-755c-4508-8d0c-546a9db21c21
+uuid: 934b588a-ef0a-4bbd-b63d-44a16ff510d8
 langcode: fr
 status: true
 dependencies:
   content:
-    - 'block_content:basic:48a6e207-74d4-4928-afbd-99d2a46b88fe'
+    - 'block_content:basic:aa1f0c17-8185-403a-8825-43af66f116b0'
   module:
     - block_content
   theme:
-    - panache
+    - gastro
 id: copyright
-theme: panache
+theme: gastro
 region: footer
-weight: -6
+weight: -3
 provider: null
-plugin: 'block_content:48a6e207-74d4-4928-afbd-99d2a46b88fe'
+plugin: 'block_content:aa1f0c17-8185-403a-8825-43af66f116b0'
 settings:
-  id: 'block_content:48a6e207-74d4-4928-afbd-99d2a46b88fe'
+  id: 'block_content:aa1f0c17-8185-403a-8825-43af66f116b0'
   label: Copyright
   label_display: '0'
   provider: block_content

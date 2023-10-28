@@ -1,13 +1,13 @@
-uuid: f2bbf31f-c276-4e58-a38a-382a545306d9
+uuid: 76b1fc5c-73fc-4e4c-b91b-3e10d5f32511
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - panache
+    - gastro
 id: contenudelapageprincipale
-theme: panache
+theme: gastro
 region: content
 weight: -3
 provider: null

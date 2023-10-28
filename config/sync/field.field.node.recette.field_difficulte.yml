@@ -1,4 +1,4 @@
-uuid: b8d74f77-bafe-4395-aa79-94e51ef73654
+uuid: be4ca4da-488d-4b8d-b8d0-954163e70c8d
 langcode: fr
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_difficulte
 entity_type: node
 bundle: recette
 label: Difficulté
-description: 'Séléctionnez un niveau de difficulté pour cette recette'
+description: 'difficulté lors de préparation de recette'
 required: false
 translatable: false
 default_value: {  }
