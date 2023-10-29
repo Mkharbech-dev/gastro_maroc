@@ -1,0 +1,24 @@
+uuid: d2d7733f-fa1a-4a0c-a4fb-b8fb2c5ff1d0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: contenu
+label: Contenu
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  514316e7-2539-48a0-bfca-e17f0c6d2651:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 514316e7-2539-48a0-bfca-e17f0c6d2651
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+      recette: recette
+selection_logic: and
+weight: -5
+relationships: {  }

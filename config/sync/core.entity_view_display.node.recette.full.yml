@@ -348,6 +348,25 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 2
             additional: {  }
+          ec3291f0-f4cf-4162-91d5-2879f7332898:
+            uuid: ec3291f0-f4cf-4162-91d5-2879f7332898
+            region: first
+            configuration:
+              id: 'field_block:node:recette:field_tags'
+              label: Étiquettes
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
         third_party_settings: {  }
       -
         layout_id: layout_onecol

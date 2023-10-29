@@ -1,0 +1,24 @@
+uuid: 909b51c1-6a63-4663-a158-672b4e1ed27b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomie
+label: Taxonomie
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:name]'
+selection_criteria:
+  8a5b6b40-b78b-4492-bb97-be9cf4ca608e:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 8a5b6b40-b78b-4492-bb97-be9cf4ca608e
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      continent: continent
+      tags: tags
+      type_recette: type_recette
+selection_logic: and
+weight: -5
+relationships: {  }
