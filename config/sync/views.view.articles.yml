@@ -26,7 +26,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Articles
+      title: Actualités
       fields:
         title:
           id: title
@@ -497,12 +497,13 @@ display:
         filters: false
         filter_groups: false
       display_extenders: {  }
-      path: articles
+      path: actualites
       menu:
         type: normal
-        title: Articles
+        title: Actualités
         description: ''
         weight: -49
+        enabled: true
         expanded: false
         menu_name: main
         parent: ''
