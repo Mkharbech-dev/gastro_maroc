@@ -16,7 +16,7 @@ third_party_settings:
 id: bienvenue2_2
 theme: gastro
 region: banner_slideshow
-weight: -1
+weight: -3
 provider: null
 plugin: 'block_content:591f45a9-b294-4197-bd53-92a36c544ca6'
 settings:
